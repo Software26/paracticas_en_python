@@ -1,0 +1,7 @@
+def todos_positivos(lista):
+    for num in range(1,6):
+        if num < 0:
+            return False
+    return True
+todo = todos_positivos()
+print(todo)
